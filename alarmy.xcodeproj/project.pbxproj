@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0BF8FE15E239C20033636D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF8FD15E239C20033636D /* UIKit.framework */; };
+		4D0BF90015E239C20033636D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF8FF15E239C20033636D /* Foundation.framework */; };
+		4D0BF90215E239C20033636D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF90115E239C20033636D /* CoreGraphics.framework */; };
+		4D0BF90815E239C20033636D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF90615E239C20033636D /* InfoPlist.strings */; };
+		4D0BF90A15E239C20033636D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF90915E239C20033636D /* main.m */; };
+		4D0BF90E15E239C20033636D /* AlarmyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF90D15E239C20033636D /* AlarmyAppDelegate.m */; };
+		4D0BF91115E239C20033636D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF90F15E239C20033636D /* MainStoryboard.storyboard */; };
+		4D0BF91415E239C30033636D /* AlarmyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF91315E239C30033636D /* AlarmyFirstViewController.m */; };
+		4D0BF91615E239C30033636D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF91515E239C30033636D /* first.png */; };
+		4D0BF91815E239C30033636D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF91715E239C30033636D /* first@2x.png */; };
+		4D0BF91B15E239C30033636D /* AlarmySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF91A15E239C30033636D /* AlarmySecondViewController.m */; };
+		4D0BF91D15E239C30033636D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF91C15E239C30033636D /* second.png */; };
+		4D0BF91F15E239C30033636D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF91E15E239C30033636D /* second@2x.png */; };
+		4D0BF92715E239C30033636D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF92615E239C30033636D /* SenTestingKit.framework */; };
+		4D0BF92815E239C30033636D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF8FD15E239C20033636D /* UIKit.framework */; };
+		4D0BF92915E239C30033636D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF8FF15E239C20033636D /* Foundation.framework */; };
+		4D0BF93115E239C30033636D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF92F15E239C30033636D /* InfoPlist.strings */; };
+		4D0BF93415E239C30033636D /* alarmyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF93315E239C30033636D /* alarmyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0BF92A15E239C30033636D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0BF8F015E239C20033636D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0BF8F815E239C20033636D;
+			remoteInfo = alarmy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0BF8F915E239C20033636D /* alarmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0BF8FD15E239C20033636D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D0BF8FF15E239C20033636D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D0BF90115E239C20033636D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D0BF90515E239C20033636D /* alarmy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "alarmy-Info.plist"; sourceTree = "<group>"; };
+		4D0BF90715E239C20033636D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0BF90915E239C20033636D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0BF90B15E239C20033636D /* alarmy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alarmy-Prefix.pch"; sourceTree = "<group>"; };
+		4D0BF90C15E239C20033636D /* AlarmyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmyAppDelegate.h; sourceTree = "<group>"; };
+		4D0BF90D15E239C20033636D /* AlarmyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmyAppDelegate.m; sourceTree = "<group>"; };
+		4D0BF91015E239C20033636D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4D0BF91215E239C20033636D /* AlarmyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmyFirstViewController.h; sourceTree = "<group>"; };
+		4D0BF91315E239C30033636D /* AlarmyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmyFirstViewController.m; sourceTree = "<group>"; };
+		4D0BF91515E239C30033636D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4D0BF91715E239C30033636D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4D0BF91915E239C30033636D /* AlarmySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlarmySecondViewController.h; sourceTree = "<group>"; };
+		4D0BF91A15E239C30033636D /* AlarmySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmySecondViewController.m; sourceTree = "<group>"; };
+		4D0BF91C15E239C30033636D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4D0BF91E15E239C30033636D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4D0BF92515E239C30033636D /* alarmyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0BF92615E239C30033636D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D0BF92E15E239C30033636D /* alarmyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "alarmyTests-Info.plist"; sourceTree = "<group>"; };
+		4D0BF93015E239C30033636D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0BF93215E239C30033636D /* alarmyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alarmyTests.h; sourceTree = "<group>"; };
+		4D0BF93315E239C30033636D /* alarmyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alarmyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0BF8F615E239C20033636D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF8FE15E239C20033636D /* UIKit.framework in Frameworks */,
+				4D0BF90015E239C20033636D /* Foundation.framework in Frameworks */,
+				4D0BF90215E239C20033636D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0BF92115E239C30033636D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF92715E239C30033636D /* SenTestingKit.framework in Frameworks */,
+				4D0BF92815E239C30033636D /* UIKit.framework in Frameworks */,
+				4D0BF92915E239C30033636D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0BF8EE15E239C20033636D = {
+			isa = PBXGroup;
+			children = (
+				4D0BF90315E239C20033636D /* alarmy */,
+				4D0BF92C15E239C30033636D /* alarmyTests */,
+				4D0BF8FC15E239C20033636D /* Frameworks */,
+				4D0BF8FA15E239C20033636D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0BF8FA15E239C20033636D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF8F915E239C20033636D /* alarmy.app */,
+				4D0BF92515E239C30033636D /* alarmyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0BF8FC15E239C20033636D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF8FD15E239C20033636D /* UIKit.framework */,
+				4D0BF8FF15E239C20033636D /* Foundation.framework */,
+				4D0BF90115E239C20033636D /* CoreGraphics.framework */,
+				4D0BF92615E239C30033636D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0BF90315E239C20033636D /* alarmy */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF90C15E239C20033636D /* AlarmyAppDelegate.h */,
+				4D0BF90D15E239C20033636D /* AlarmyAppDelegate.m */,
+				4D0BF90F15E239C20033636D /* MainStoryboard.storyboard */,
+				4D0BF91215E239C20033636D /* AlarmyFirstViewController.h */,
+				4D0BF91315E239C30033636D /* AlarmyFirstViewController.m */,
+				4D0BF91515E239C30033636D /* first.png */,
+				4D0BF91715E239C30033636D /* first@2x.png */,
+				4D0BF91915E239C30033636D /* AlarmySecondViewController.h */,
+				4D0BF91A15E239C30033636D /* AlarmySecondViewController.m */,
+				4D0BF91C15E239C30033636D /* second.png */,
+				4D0BF91E15E239C30033636D /* second@2x.png */,
+				4D0BF90415E239C20033636D /* Supporting Files */,
+			);
+			path = alarmy;
+			sourceTree = "<group>";
+		};
+		4D0BF90415E239C20033636D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF90515E239C20033636D /* alarmy-Info.plist */,
+				4D0BF90615E239C20033636D /* InfoPlist.strings */,
+				4D0BF90915E239C20033636D /* main.m */,
+				4D0BF90B15E239C20033636D /* alarmy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0BF92C15E239C30033636D /* alarmyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF93215E239C30033636D /* alarmyTests.h */,
+				4D0BF93315E239C30033636D /* alarmyTests.m */,
+				4D0BF92D15E239C30033636D /* Supporting Files */,
+			);
+			path = alarmyTests;
+			sourceTree = "<group>";
+		};
+		4D0BF92D15E239C30033636D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF92E15E239C30033636D /* alarmyTests-Info.plist */,
+				4D0BF92F15E239C30033636D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0BF8F815E239C20033636D /* alarmy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0BF93715E239C30033636D /* Build configuration list for PBXNativeTarget "alarmy" */;
+			buildPhases = (
+				4D0BF8F515E239C20033636D /* Sources */,
+				4D0BF8F615E239C20033636D /* Frameworks */,
+				4D0BF8F715E239C20033636D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alarmy;
+			productName = alarmy;
+			productReference = 4D0BF8F915E239C20033636D /* alarmy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0BF92415E239C30033636D /* alarmyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0BF93A15E239C30033636D /* Build configuration list for PBXNativeTarget "alarmyTests" */;
+			buildPhases = (
+				4D0BF92015E239C30033636D /* Sources */,
+				4D0BF92115E239C30033636D /* Frameworks */,
+				4D0BF92215E239C30033636D /* Resources */,
+				4D0BF92315E239C30033636D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0BF92B15E239C30033636D /* PBXTargetDependency */,
+			);
+			name = alarmyTests;
+			productName = alarmyTests;
+			productReference = 4D0BF92515E239C30033636D /* alarmyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0BF8F015E239C20033636D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Alarmy;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Masahiro Nakagawa";
+			};
+			buildConfigurationList = 4D0BF8F315E239C20033636D /* Build configuration list for PBXProject "alarmy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D0BF8EE15E239C20033636D;
+			productRefGroup = 4D0BF8FA15E239C20033636D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0BF8F815E239C20033636D /* alarmy */,
+				4D0BF92415E239C30033636D /* alarmyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0BF8F715E239C20033636D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF90815E239C20033636D /* InfoPlist.strings in Resources */,
+				4D0BF91115E239C20033636D /* MainStoryboard.storyboard in Resources */,
+				4D0BF91615E239C30033636D /* first.png in Resources */,
+				4D0BF91815E239C30033636D /* first@2x.png in Resources */,
+				4D0BF91D15E239C30033636D /* second.png in Resources */,
+				4D0BF91F15E239C30033636D /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0BF92215E239C30033636D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF93115E239C30033636D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0BF92315E239C30033636D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0BF8F515E239C20033636D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF90A15E239C20033636D /* main.m in Sources */,
+				4D0BF90E15E239C20033636D /* AlarmyAppDelegate.m in Sources */,
+				4D0BF91415E239C30033636D /* AlarmyFirstViewController.m in Sources */,
+				4D0BF91B15E239C30033636D /* AlarmySecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0BF92015E239C30033636D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF93415E239C30033636D /* alarmyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D0BF92B15E239C30033636D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0BF8F815E239C20033636D /* alarmy */;
+			targetProxy = 4D0BF92A15E239C30033636D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D0BF90615E239C20033636D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0BF90715E239C20033636D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D0BF90F15E239C20033636D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0BF91015E239C20033636D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0BF92F15E239C30033636D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0BF93015E239C30033636D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0BF93515E239C30033636D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D0BF93615E239C30033636D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0BF93815E239C30033636D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
+				INFOPLIST_FILE = "alarmy/alarmy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D0BF93915E239C30033636D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
+				INFOPLIST_FILE = "alarmy/alarmy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D0BF93B15E239C30033636D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarmy.app/alarmy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
+				INFOPLIST_FILE = "alarmyTests/alarmyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D0BF93C15E239C30033636D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarmy.app/alarmy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
+				INFOPLIST_FILE = "alarmyTests/alarmyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0BF8F315E239C20033636D /* Build configuration list for PBXProject "alarmy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0BF93515E239C30033636D /* Debug */,
+				4D0BF93615E239C30033636D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0BF93715E239C30033636D /* Build configuration list for PBXNativeTarget "alarmy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0BF93815E239C30033636D /* Debug */,
+				4D0BF93915E239C30033636D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0BF93A15E239C30033636D /* Build configuration list for PBXNativeTarget "alarmyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0BF93B15E239C30033636D /* Debug */,
+				4D0BF93C15E239C30033636D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0BF8F015E239C20033636D /* Project object */;
+}

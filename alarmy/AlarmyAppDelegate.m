@@ -7,6 +7,7 @@
 //
 
 #import "AlarmyAppDelegate.h"
+#import "SettingViewController.h"
 
 @implementation AlarmyAppDelegate
 

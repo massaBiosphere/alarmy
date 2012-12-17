@@ -25,6 +25,45 @@
 		4D0BF92915E239C30033636D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF8FF15E239C20033636D /* Foundation.framework */; };
 		4D0BF93115E239C30033636D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF92F15E239C30033636D /* InfoPlist.strings */; };
 		4D0BF93415E239C30033636D /* alarmyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF93315E239C30033636D /* alarmyTests.m */; };
+		4D0BF94315E317A60033636D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF94215E317A60033636D /* SettingViewController.m */; };
+		4D0BF94615E338D20033636D /* b_011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF94515E338D20033636D /* b_011.mp3 */; };
+		4D0BF94915E33A230033636D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF94815E33A230033636D /* AVFoundation.framework */; };
+		4D0BF95215E4738B0033636D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0BF95115E4738B0033636D /* libsqlite3.0.dylib */; };
+		4D0BF95F15E475230033636D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF95615E475230033636D /* FMDatabase.m */; };
+		4D0BF96015E475230033636D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF95815E475230033636D /* FMDatabaseAdditions.m */; };
+		4D0BF96115E475230033636D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF95A15E475230033636D /* FMDatabasePool.m */; };
+		4D0BF96215E475230033636D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF95C15E475230033636D /* FMDatabaseQueue.m */; };
+		4D0BF96315E475230033636D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF95E15E475230033636D /* FMResultSet.m */; };
+		4D0BF96515E4CC020033636D /* alarmy.db in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96415E4CC020033636D /* alarmy.db */; };
+		4D0BF97315E5E5F80033636D /* hatena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96615E5E5F80033636D /* hatena.jpg */; };
+		4D0BF97415E5E5F80033636D /* おかん.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96715E5E5F80033636D /* おかん.png */; };
+		4D0BF97515E5E5F80033636D /* おかん１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96815E5E5F80033636D /* おかん１.jpg */; };
+		4D0BF97615E5E5F80033636D /* かまてちゃん.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96915E5E5F80033636D /* かまてちゃん.jpg */; };
+		4D0BF97715E5E5F80033636D /* ツンデレ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96A15E5E5F80033636D /* ツンデレ.jpg */; };
+		4D0BF97815E5E5F80033636D /* ふきだし.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96B15E5E5F80033636D /* ふきだし.png */; };
+		4D0BF97915E5E5F80033636D /* ふつう.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96C15E5E5F80033636D /* ふつう.jpg */; };
+		4D0BF97A15E5E5F80033636D /* レア.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96D15E5E5F80033636D /* レア.jpg */; };
+		4D0BF97B15E5E5F80033636D /* 嘘の時間.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96E15E5E5F80033636D /* 嘘の時間.jpg */; };
+		4D0BF97C15E5E5F80033636D /* 蚊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF96F15E5E5F80033636D /* 蚊.jpg */; };
+		4D0BF97D15E5E5F80033636D /* 起こさない.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF97015E5E5F80033636D /* 起こさない.jpg */; };
+		4D0BF97E15E5E5F80033636D /* 爆音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF97115E5E5F80033636D /* 爆音.jpg */; };
+		4D0BF97F15E5E5F80033636D /* 誉める.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF97215E5E5F80033636D /* 誉める.jpg */; };
+		4D0BF98315E5ED910033636D /* 卵.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98215E5ED910033636D /* 卵.jpg */; };
+		4D0BF98615E5F7A50033636D /* icon_buzzer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98515E5F7A50033636D /* icon_buzzer.png */; };
+		4D0BF98815E5F7DB0033636D /* icon_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98715E5F7DB0033636D /* icon_settings.png */; };
+		4D0BF98A15E5F81C0033636D /* icon_book.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98915E5F81C0033636D /* icon_book.png */; };
+		4D0BF98C15E5F9B30033636D /* たまごヒビ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98B15E5F9B30033636D /* たまごヒビ.jpg */; };
+		4D0BF98E15E5F9BF0033636D /* 墓.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98D15E5F9BF0033636D /* 墓.png */; };
+		4D0BF99015E5F9D30033636D /* 枠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF98F15E5F9D30033636D /* 枠.jpg */; };
+		4D0BF99215E609B40033636D /* おかん声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99115E609B40033636D /* おかん声.mp3 */; };
+		4D0BF99415E609BC0033636D /* 蚊の飛ぶ音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99315E609BC0033636D /* 蚊の飛ぶ音.mp3 */; };
+		4D0BF99615E60FA60033636D /* ふきだし改.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99515E60FA60033636D /* ふきだし改.png */; };
+		4D0BF99A15E712410033636D /* おはよう.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99715E712410033636D /* おはよう.mp3 */; };
+		4D0BF99B15E712410033636D /* 朝だよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99815E712410033636D /* 朝だよ.mp3 */; };
+		4D0BF99C15E712410033636D /* 朝だよ2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99915E712410033636D /* 朝だよ2.mp3 */; };
+		4D0BF99E15E71A7B0033636D /* syo-geki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BF99D15E71A7B0033636D /* syo-geki.mp3 */; };
+		4DD5B29215E7539300EA2B0B /* alarmyアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5B29115E7539300EA2B0B /* alarmyアイコン.png */; };
+		4DD5B29515E7547000EA2B0B /* alarmyアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5B29415E7547000EA2B0B /* alarmyアイコン.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +102,51 @@
 		4D0BF93015E239C30033636D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D0BF93215E239C30033636D /* alarmyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alarmyTests.h; sourceTree = "<group>"; };
 		4D0BF93315E239C30033636D /* alarmyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alarmyTests.m; sourceTree = "<group>"; };
+		4D0BF94115E317A60033636D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		4D0BF94215E317A60033636D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		4D0BF94515E338D20033636D /* b_011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b_011.mp3; sourceTree = "<group>"; };
+		4D0BF94815E33A230033636D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D0BF95115E4738B0033636D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		4D0BF95515E475230033636D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabase.h"; sourceTree = "<group>"; };
+		4D0BF95615E475230033636D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabase.m"; sourceTree = "<group>"; };
+		4D0BF95715E475230033636D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		4D0BF95815E475230033636D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		4D0BF95915E475230033636D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabasePool.h"; sourceTree = "<group>"; };
+		4D0BF95A15E475230033636D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabasePool.m"; sourceTree = "<group>"; };
+		4D0BF95B15E475230033636D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		4D0BF95C15E475230033636D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		4D0BF95D15E475230033636D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMResultSet.h"; sourceTree = "<group>"; };
+		4D0BF95E15E475230033636D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../Downloads/ccgus-fmdb-3d7eaf6/src/FMResultSet.m"; sourceTree = "<group>"; };
+		4D0BF96415E4CC020033636D /* alarmy.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = alarmy.db; path = ../../../alarmy.db; sourceTree = "<group>"; };
+		4D0BF96615E5E5F80033636D /* hatena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hatena.jpg; path = ../../../Downloads/Techcamp/hatena.jpg; sourceTree = "<group>"; };
+		4D0BF96715E5E5F80033636D /* おかん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "おかん.png"; path = "../../../Downloads/Techcamp/おかん.png"; sourceTree = "<group>"; };
+		4D0BF96815E5E5F80033636D /* おかん１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "おかん１.jpg"; path = "../../../Downloads/Techcamp/おかん１.jpg"; sourceTree = "<group>"; };
+		4D0BF96915E5E5F80033636D /* かまてちゃん.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "かまてちゃん.jpg"; path = "../../../Downloads/Techcamp/かまてちゃん.jpg"; sourceTree = "<group>"; };
+		4D0BF96A15E5E5F80033636D /* ツンデレ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ツンデレ.jpg"; path = "../../../Downloads/Techcamp/ツンデレ.jpg"; sourceTree = "<group>"; };
+		4D0BF96B15E5E5F80033636D /* ふきだし.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ふきだし.png"; path = "../../../Downloads/Techcamp/ふきだし.png"; sourceTree = "<group>"; };
+		4D0BF96C15E5E5F80033636D /* ふつう.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ふつう.jpg"; path = "../../../Downloads/Techcamp/ふつう.jpg"; sourceTree = "<group>"; };
+		4D0BF96D15E5E5F80033636D /* レア.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "レア.jpg"; path = "../../../Downloads/Techcamp/レア.jpg"; sourceTree = "<group>"; };
+		4D0BF96E15E5E5F80033636D /* 嘘の時間.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "嘘の時間.jpg"; path = "../../../Downloads/Techcamp/嘘の時間.jpg"; sourceTree = "<group>"; };
+		4D0BF96F15E5E5F80033636D /* 蚊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "蚊.jpg"; path = "../../../Downloads/Techcamp/蚊.jpg"; sourceTree = "<group>"; };
+		4D0BF97015E5E5F80033636D /* 起こさない.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "起こさない.jpg"; path = "../../../Downloads/Techcamp/起こさない.jpg"; sourceTree = "<group>"; };
+		4D0BF97115E5E5F80033636D /* 爆音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "爆音.jpg"; path = "../../../Downloads/Techcamp/爆音.jpg"; sourceTree = "<group>"; };
+		4D0BF97215E5E5F80033636D /* 誉める.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "誉める.jpg"; path = "../../../Downloads/Techcamp/誉める.jpg"; sourceTree = "<group>"; };
+		4D0BF98215E5ED910033636D /* 卵.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "卵.jpg"; path = "../../../Downloads/卵.jpg"; sourceTree = "<group>"; };
+		4D0BF98515E5F7A50033636D /* icon_buzzer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_buzzer.png; path = ../../../Downloads/twg_iphone_toolbar_icons/icon_buzzer.png; sourceTree = "<group>"; };
+		4D0BF98715E5F7DB0033636D /* icon_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_settings.png; path = ../../../Downloads/twg_iphone_toolbar_icons/icon_settings.png; sourceTree = "<group>"; };
+		4D0BF98915E5F81C0033636D /* icon_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_book.png; path = ../../../Downloads/twg_iphone_toolbar_icons/icon_book.png; sourceTree = "<group>"; };
+		4D0BF98B15E5F9B30033636D /* たまごヒビ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "たまごヒビ.jpg"; path = "../../../Downloads/image/たまごヒビ.jpg"; sourceTree = "<group>"; };
+		4D0BF98D15E5F9BF0033636D /* 墓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "墓.png"; path = "../../../Downloads/image/墓.png"; sourceTree = "<group>"; };
+		4D0BF98F15E5F9D30033636D /* 枠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "枠.jpg"; path = "../../../Downloads/image/枠.jpg"; sourceTree = "<group>"; };
+		4D0BF99115E609B40033636D /* おかん声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "おかん声.mp3"; path = "../../../Downloads/おかん声.mp3"; sourceTree = "<group>"; };
+		4D0BF99315E609BC0033636D /* 蚊の飛ぶ音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "蚊の飛ぶ音.mp3"; path = "../../../Downloads/蚊の飛ぶ音.mp3"; sourceTree = "<group>"; };
+		4D0BF99515E60FA60033636D /* ふきだし改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ふきだし改.png"; path = "../../../Downloads/ふきだし改.png"; sourceTree = "<group>"; };
+		4D0BF99715E712410033636D /* おはよう.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "おはよう.mp3"; path = "../../../Downloads/おはよう.mp3"; sourceTree = "<group>"; };
+		4D0BF99815E712410033636D /* 朝だよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "朝だよ.mp3"; path = "../../../Downloads/朝だよ.mp3"; sourceTree = "<group>"; };
+		4D0BF99915E712410033636D /* 朝だよ2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "朝だよ2.mp3"; path = "../../../Downloads/朝だよ2.mp3"; sourceTree = "<group>"; };
+		4D0BF99D15E71A7B0033636D /* syo-geki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "syo-geki.mp3"; path = "../../../Downloads/syo-geki.mp3"; sourceTree = "<group>"; };
+		4DD5B29115E7539300EA2B0B /* alarmyアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alarmyアイコン.png"; path = "../../../Downloads/alarmyアイコン.png"; sourceTree = "<group>"; };
+		4DD5B29415E7547000EA2B0B /* alarmyアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarmyアイコン.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +154,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0BF95215E4738B0033636D /* libsqlite3.0.dylib in Frameworks */,
+				4D0BF94915E33A230033636D /* AVFoundation.framework in Frameworks */,
 				4D0BF8FE15E239C20033636D /* UIKit.framework in Frameworks */,
 				4D0BF90015E239C20033636D /* Foundation.framework in Frameworks */,
 				4D0BF90215E239C20033636D /* CoreGraphics.framework in Frameworks */,
@@ -92,9 +178,10 @@
 		4D0BF8EE15E239C20033636D = {
 			isa = PBXGroup;
 			children = (
+				4DD5B29415E7547000EA2B0B /* alarmyアイコン.png */,
+				4D0BF8FC15E239C20033636D /* Frameworks */,
 				4D0BF90315E239C20033636D /* alarmy */,
 				4D0BF92C15E239C30033636D /* alarmyTests */,
-				4D0BF8FC15E239C20033636D /* Frameworks */,
 				4D0BF8FA15E239C20033636D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,6 +198,8 @@
 		4D0BF8FC15E239C20033636D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D0BF95115E4738B0033636D /* libsqlite3.0.dylib */,
+				4D0BF94815E33A230033636D /* AVFoundation.framework */,
 				4D0BF8FD15E239C20033636D /* UIKit.framework */,
 				4D0BF8FF15E239C20033636D /* Foundation.framework */,
 				4D0BF90115E239C20033636D /* CoreGraphics.framework */,
@@ -131,6 +220,8 @@
 				4D0BF91715E239C30033636D /* first@2x.png */,
 				4D0BF91915E239C30033636D /* AlarmySecondViewController.h */,
 				4D0BF91A15E239C30033636D /* AlarmySecondViewController.m */,
+				4D0BF94115E317A60033636D /* SettingViewController.h */,
+				4D0BF94215E317A60033636D /* SettingViewController.m */,
 				4D0BF91C15E239C30033636D /* second.png */,
 				4D0BF91E15E239C30033636D /* second@2x.png */,
 				4D0BF90415E239C20033636D /* Supporting Files */,
@@ -141,6 +232,20 @@
 		4D0BF90415E239C20033636D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D0BF98415E5F76E0033636D /* icon */,
+				4D0BF96415E4CC020033636D /* alarmy.db */,
+				4D0BF95515E475230033636D /* FMDatabase.h */,
+				4D0BF95615E475230033636D /* FMDatabase.m */,
+				4D0BF95715E475230033636D /* FMDatabaseAdditions.h */,
+				4D0BF95815E475230033636D /* FMDatabaseAdditions.m */,
+				4D0BF95915E475230033636D /* FMDatabasePool.h */,
+				4D0BF95A15E475230033636D /* FMDatabasePool.m */,
+				4D0BF95B15E475230033636D /* FMDatabaseQueue.h */,
+				4D0BF95C15E475230033636D /* FMDatabaseQueue.m */,
+				4D0BF95D15E475230033636D /* FMResultSet.h */,
+				4D0BF95E15E475230033636D /* FMResultSet.m */,
+				4D0BF94C15E34ED70033636D /* image */,
+				4D0BF94415E338A90033636D /* Sound */,
 				4D0BF90515E239C20033636D /* alarmy-Info.plist */,
 				4D0BF90615E239C20033636D /* InfoPlist.strings */,
 				4D0BF90915E239C20033636D /* main.m */,
@@ -166,6 +271,56 @@
 				4D0BF92F15E239C30033636D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0BF94415E338A90033636D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF99D15E71A7B0033636D /* syo-geki.mp3 */,
+				4D0BF99715E712410033636D /* おはよう.mp3 */,
+				4D0BF99815E712410033636D /* 朝だよ.mp3 */,
+				4D0BF99915E712410033636D /* 朝だよ2.mp3 */,
+				4D0BF99115E609B40033636D /* おかん声.mp3 */,
+				4D0BF99315E609BC0033636D /* 蚊の飛ぶ音.mp3 */,
+				4D0BF94515E338D20033636D /* b_011.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		4D0BF94C15E34ED70033636D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BF99515E60FA60033636D /* ふきだし改.png */,
+				4D0BF98F15E5F9D30033636D /* 枠.jpg */,
+				4D0BF98D15E5F9BF0033636D /* 墓.png */,
+				4D0BF98B15E5F9B30033636D /* たまごヒビ.jpg */,
+				4D0BF98215E5ED910033636D /* 卵.jpg */,
+				4D0BF96615E5E5F80033636D /* hatena.jpg */,
+				4D0BF96715E5E5F80033636D /* おかん.png */,
+				4D0BF96815E5E5F80033636D /* おかん１.jpg */,
+				4D0BF96915E5E5F80033636D /* かまてちゃん.jpg */,
+				4D0BF96A15E5E5F80033636D /* ツンデレ.jpg */,
+				4D0BF96B15E5E5F80033636D /* ふきだし.png */,
+				4D0BF96C15E5E5F80033636D /* ふつう.jpg */,
+				4D0BF96D15E5E5F80033636D /* レア.jpg */,
+				4D0BF96E15E5E5F80033636D /* 嘘の時間.jpg */,
+				4D0BF96F15E5E5F80033636D /* 蚊.jpg */,
+				4D0BF97015E5E5F80033636D /* 起こさない.jpg */,
+				4D0BF97115E5E5F80033636D /* 爆音.jpg */,
+				4D0BF97215E5E5F80033636D /* 誉める.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		4D0BF98415E5F76E0033636D /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5B29115E7539300EA2B0B /* alarmyアイコン.png */,
+				4D0BF98915E5F81C0033636D /* icon_book.png */,
+				4D0BF98715E5F7DB0033636D /* icon_settings.png */,
+				4D0BF98515E5F7A50033636D /* icon_buzzer.png */,
+			);
+			name = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +401,36 @@
 				4D0BF91815E239C30033636D /* first@2x.png in Resources */,
 				4D0BF91D15E239C30033636D /* second.png in Resources */,
 				4D0BF91F15E239C30033636D /* second@2x.png in Resources */,
+				4D0BF94615E338D20033636D /* b_011.mp3 in Resources */,
+				4D0BF97315E5E5F80033636D /* hatena.jpg in Resources */,
+				4D0BF97415E5E5F80033636D /* おかん.png in Resources */,
+				4D0BF97515E5E5F80033636D /* おかん１.jpg in Resources */,
+				4D0BF97615E5E5F80033636D /* かまてちゃん.jpg in Resources */,
+				4D0BF97715E5E5F80033636D /* ツンデレ.jpg in Resources */,
+				4D0BF97815E5E5F80033636D /* ふきだし.png in Resources */,
+				4D0BF97915E5E5F80033636D /* ふつう.jpg in Resources */,
+				4D0BF97A15E5E5F80033636D /* レア.jpg in Resources */,
+				4D0BF97B15E5E5F80033636D /* 嘘の時間.jpg in Resources */,
+				4D0BF97C15E5E5F80033636D /* 蚊.jpg in Resources */,
+				4D0BF97D15E5E5F80033636D /* 起こさない.jpg in Resources */,
+				4D0BF97E15E5E5F80033636D /* 爆音.jpg in Resources */,
+				4D0BF97F15E5E5F80033636D /* 誉める.jpg in Resources */,
+				4D0BF98315E5ED910033636D /* 卵.jpg in Resources */,
+				4D0BF98615E5F7A50033636D /* icon_buzzer.png in Resources */,
+				4D0BF98815E5F7DB0033636D /* icon_settings.png in Resources */,
+				4D0BF98A15E5F81C0033636D /* icon_book.png in Resources */,
+				4D0BF98C15E5F9B30033636D /* たまごヒビ.jpg in Resources */,
+				4D0BF98E15E5F9BF0033636D /* 墓.png in Resources */,
+				4D0BF99015E5F9D30033636D /* 枠.jpg in Resources */,
+				4D0BF99215E609B40033636D /* おかん声.mp3 in Resources */,
+				4D0BF99415E609BC0033636D /* 蚊の飛ぶ音.mp3 in Resources */,
+				4D0BF99615E60FA60033636D /* ふきだし改.png in Resources */,
+				4D0BF99A15E712410033636D /* おはよう.mp3 in Resources */,
+				4D0BF99B15E712410033636D /* 朝だよ.mp3 in Resources */,
+				4D0BF99C15E712410033636D /* 朝だよ2.mp3 in Resources */,
+				4D0BF99E15E71A7B0033636D /* syo-geki.mp3 in Resources */,
+				4DD5B29215E7539300EA2B0B /* alarmyアイコン.png in Resources */,
+				4DD5B29515E7547000EA2B0B /* alarmyアイコン.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0BF93115E239C30033636D /* InfoPlist.strings in Resources */,
+				4D0BF96515E4CC020033636D /* alarmy.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +470,12 @@
 				4D0BF90E15E239C20033636D /* AlarmyAppDelegate.m in Sources */,
 				4D0BF91415E239C30033636D /* AlarmyFirstViewController.m in Sources */,
 				4D0BF91B15E239C30033636D /* AlarmySecondViewController.m in Sources */,
+				4D0BF94315E317A60033636D /* SettingViewController.m in Sources */,
+				4D0BF95F15E475230033636D /* FMDatabase.m in Sources */,
+				4D0BF96015E475230033636D /* FMDatabaseAdditions.m in Sources */,
+				4D0BF96115E475230033636D /* FMDatabasePool.m in Sources */,
+				4D0BF96215E475230033636D /* FMDatabaseQueue.m in Sources */,
+				4D0BF96315E475230033636D /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +533,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -356,7 +549,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "3C29E6A3-A5CA-4F0B-9DA6-07BE421BA0DE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5FA8710-F444-4ED0-8F7C-F8E11CA3AC91";
+				SDKROOT = iphoneos5.0.1;
 			};
 			name = Debug;
 		};
@@ -368,7 +563,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -377,7 +573,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "3C29E6A3-A5CA-4F0B-9DA6-07BE421BA0DE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5FA8710-F444-4ED0-8F7C-F8E11CA3AC91";
+				SDKROOT = iphoneos5.0.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -385,10 +583,14 @@
 		4D0BF93815E239C30033636D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masahiro Nakagawa";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
 				INFOPLIST_FILE = "alarmy/alarmy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C29E6A3-A5CA-4F0B-9DA6-07BE421BA0DE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +598,14 @@
 		4D0BF93915E239C30033636D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masahiro Nakagawa (6B7YCJX6JM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Masahiro Nakagawa";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
 				INFOPLIST_FILE = "alarmy/alarmy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3C29E6A3-A5CA-4F0B-9DA6-07BE421BA0DE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -408,6 +614,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarmy.app/alarmy";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -416,6 +624,8 @@
 				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
 				INFOPLIST_FILE = "alarmyTests/alarmyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -425,6 +635,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarmy.app/alarmy";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -433,6 +645,8 @@
 				GCC_PREFIX_HEADER = "alarmy/alarmy-Prefix.pch";
 				INFOPLIST_FILE = "alarmyTests/alarmyTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -457,6 +671,7 @@
 				4D0BF93915E239C30033636D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0BF93A15E239C30033636D /* Build configuration list for PBXNativeTarget "alarmyTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +680,7 @@
 				4D0BF93C15E239C30033636D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
